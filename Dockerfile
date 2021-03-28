@@ -1,1 +1,4 @@
-from debian:latest
+FROM debian:latest
+
+COPY . /app
+

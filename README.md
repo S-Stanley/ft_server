@@ -3,11 +3,11 @@
 ### Launch
 
 ```shell
-docker run ft_server/
+docker build ft_server/
 ```
 
 ### HELP
 If you have access problemes
-```
-sudo chmod -R 777 /var/run/docker.sock
+```shell
+sudo chmod 777 /var/run/docker.sock
 ```
