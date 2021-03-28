@@ -1,2 +1,1 @@
-docker pull debian
-docker pull wordpress
+sudo chmod -R 777 /var/run/docker.sock
