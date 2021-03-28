@@ -1,13 +1,25 @@
 # FT-SERVER
 
-### Launch
+### RUN
 
 ```shell
-docker build ft_server/
+docker run -d server
+```
+
+### BUILD
+```
+docker build . -t server
 ```
 
 ### HELP
 If you have access problemes
+
 ```shell
 sudo chmod 777 /var/run/docker.sock
+```
+
+If you have problemes to download images
+
+```shell
+docker login
 ```
