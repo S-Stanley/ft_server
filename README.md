@@ -1,14 +1,14 @@
 # FT-SERVER
 
+### BUILD
+```
+docker build . -t server
+```
+
 ### RUN
 
 ```shell
 docker run -d server
-```
-
-### BUILD
-```
-docker build . -t server
 ```
 
 ### HELP
@@ -26,4 +26,5 @@ docker login
 
 ### Ressources
 
-MYSQL: https://www.alsacreations.com/tuto/lire/615-installation-configuration-MySQL.html
+https://www.alsacreations.com/tuto/lire/615-installation-configuration-MySQL.html
+https://www.digitalocean.com/community/tutorials/how-sto-install-linux-nginx-mariadb-php-lemp-stack-on-debian-10
