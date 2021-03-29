@@ -8,4 +8,4 @@ COPY . /app
 
 WORKDIR /app
 
-CMD cat 
+CMD bash srcs/start.sh
