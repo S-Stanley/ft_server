@@ -26,6 +26,21 @@ docker login
 
 ### Ressources
 
-https://www.alsacreations.com/tuto/lire/615-installation-configuration-MySQL.html
+LEMP stack
 https://www.digitalocean.com/community/tutorials/how-sto-install-linux-nginx-mariadb-php-lemp-stack-on-debian-10
+
+MYSQL
+https://www.alsacreations.com/tuto/lire/615-installation-configuration-MySQL.html
+https://www.cyberciti.biz/faq/mysql-command-to-show-list-of-databases-on-server/
+https://korben.info/comment-changer-le-mot-de-passe-root-perdu-de-mysql.html
+
+WORDPRESS
 https://www.it-connect.fr/installation-de-wordpress-sous-linux/
+https://www.abyssproject.net/2020/05/monter-son-serveur-web-avec-debian-10-et-un-wordpress/
+https://www.it-connect.fr/installation-de-wordpress-sous-linux/
+
+PHPMYADMIN
+https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-with-nginx-on-an-ubuntu-18-04-server
+
+SSL
+https://letsencrypt.org/fr/docs/certificates-for-localhost/
