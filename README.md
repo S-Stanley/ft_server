@@ -41,6 +41,7 @@ https://www.it-connect.fr/installation-de-wordpress-sous-linux/
 
 PHPMYADMIN
 https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-with-nginx-on-an-ubuntu-18-04-server
+https://askubuntu.com/questions/19127/how-to-access-phpmyadmin-after-installation
 
 SSL
 https://letsencrypt.org/fr/docs/certificates-for-localhost/

@@ -6,3 +6,4 @@ wget http://wordpress.org/latest.zip
 sudo unzip latest.zip -d /var/www
 sudo chmod -R 777 /var/www
 sudo chown -R user42:user42 /var/www/wordpress
+sudo ln -s /usr/share/phpmyadmin /var/www/wordpress/
