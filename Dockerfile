@@ -1,10 +1,10 @@
 FROM debian:latest
 
-RUN apt-get install nginx --assume-yes
-RUN apt install mysql-server --assume-yes
-RUN apt install php-fpm php-mysql --assume-yes
-RUN apt-get install zip  --assume-yes
-RUN apt-get install mysql-server mysql-client mysql-common --assume-yes
+RUN apt-get install nginx -yq
+RUN apt install mysql-server -yq
+RUN apt install php-fpm php-mysql -yq
+RUN apt-get install zip  -yq
+RUN apt-get install mysql-server mysql-client mysql-common -yq
 
 COPY . /app
 
