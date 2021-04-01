@@ -1,8 +1,4 @@
-apt-get install mysql-server mysql-client mysql-common
 sudo service mysql start
-sudo apt install php-fpm php-mysql
-sudo apt install nginx
-sudo apt-get install zip
 cd /tmp
 wget http://wordpress.org/latest.zip
 sudo unzip latest.zip -d /var/www
