@@ -1,0 +1,2 @@
+sudo docker build . -t server
+sudo docker run -d server

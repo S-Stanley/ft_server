@@ -1,13 +1,19 @@
-FROM debian:latest
+FROM debian:buster
 
-RUN apt-get install nginx -yq
-RUN apt install mysql-server -yq
-RUN apt install php-fpm php-mysql -yq
-RUN apt-get install zip  -yq
-RUN apt-get install mysql-server mysql-client mysql-common -yq
+MAINTAINER Stanley SERBIN <sserbin@student.42.fr>
+
+RUN apt update --assume-yes
+RUN apt install nginx --assume-yes
+RUN apt install mariadb-server --assume-yes
+RUN apt install php-fpm php-mysql --assume-yes
+RUN apt install zip --assume-yes
+RUN apt install wget --assume-yes
+RUN apt install php7.2-fpm --assume-yes
 
 COPY . /app
-
 WORKDIR /app
 
-CMD bash srcs/start.sh
+RUN chmod 777 -R /app
+RUN /app/srcs/start.sh
+
+CMD ["nginx", "-g", "daemon off;"]
