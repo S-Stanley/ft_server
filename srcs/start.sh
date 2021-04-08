@@ -1,7 +1,8 @@
 service mysql start
 cd /tmp
 wget http://wordpress.org/latest.zip
-unzip latest.zip -d /var/www
+mkdir /var/www/wordpress
+unzip latest.zip -d /var/www/wordpress/
 chmod -R 777 /var/www
 cat /app/srcs/wp-config.php > /var/www/wordpress/wp-config.php
 ln -s /usr/share/phpmyadmin /var/www/wordpress/
