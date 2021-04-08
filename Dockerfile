@@ -15,5 +15,4 @@ WORKDIR /app
 RUN chmod 777 -R /app
 RUN /app/srcs/start.sh
 
-#CMD ["nginx", "-g", "daemon off;"]
 CMD /app/srcs/init.sh

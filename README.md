@@ -12,13 +12,11 @@ docker run -d -p 127.0.0.1:80:80 server
 ```
 
 ### HELP
-If you have access problemes
+Useful cmd
 
 ```shell
 sudo chmod 777 /var/run/docker.sock
 ```
-
-If you have problemes to download images
 
 ```shell
 docker login
