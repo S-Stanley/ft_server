@@ -8,6 +8,8 @@ RUN apt install mariadb-server --assume-yes
 RUN apt install php-fpm php-mysql --assume-yes
 RUN apt install zip --assume-yes
 RUN apt install wget --assume-yes
+RUN apt install openssl --assume-yes
+RUN apt install vim --assume-yes
 
 COPY . /app
 WORKDIR /app
