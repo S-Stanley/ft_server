@@ -8,7 +8,7 @@ docker build . -t server
 ### RUN
 
 ```shell
-docker run -d -p 127.0.0.1:43:43 server
+docker run -p 127.0.0.1:443:443 --name ft_server -d -e AUTOINDEX=on server
 ```
 
 ### HELP
